@@ -37,7 +37,7 @@ body {
 
 .p h4 {
     border: 2px solid #66FCF1;
-    width: 300px;
+    width: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-transform: uppercase;
@@ -215,7 +215,7 @@ body {
 }
 
 .name hr {
-    width: 70px;
+    width: 60px;
     height: 2px;
     display: block;
     float: left;
@@ -551,7 +551,7 @@ body {
 }
 
 .heading hr{
-    width:70px;
+    width:60px;
     display: block;
     float: left;
     margin-right: 20px;
@@ -606,8 +606,8 @@ body {
 .wview{
     border: 2px solid #66FCF1;
     width: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -701,7 +701,7 @@ body {
 }
 
 .aname hr{
-    width:70px;
+    width:60px;
     height:2px;
     display: block;
     float: left;
@@ -907,13 +907,13 @@ body {
 }
 
 .theader hr{
-    width:70px;
+    width:60px;
     height:2px;
     display: block;
     float: left;
     margin-right: 20px;
     border-color: #66FCF1;
-    margin-top: 25px;
+    margin-top: 29px;
     transform: translateX(-100px);
     opacity: 0;
     transition: 250ms;
@@ -991,7 +991,7 @@ body {
 }
 
 .fi1{
-    height: 75%;
+    height: 80%;
     padding-top: 30px;
     background-color: black;
     border: 1px solid rgb(73, 73, 73);
@@ -1005,9 +1005,9 @@ body {
 }
 
 .feeds p{
+    width: 80%;
     text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: auto;
     line-height: 1.5;
     letter-spacing: 0.3px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1119,11 +1119,11 @@ body {
 .project{
     background-image: url(image/team.png);
     background-size: cover;
-    height: 65vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     color: white;
+    padding-bottom: 80px;
 }
 .socillink{
     display: flex;
@@ -1216,9 +1216,10 @@ body {
    /*border: 1px solid white; */
 }
 .foo1{
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: row; 
+    margin: auto;
     /*border: 1px solid yellow;*/
 }
 .foo2{
@@ -1352,12 +1353,13 @@ body {
     color: rgb(202, 202, 202);
 }
 .fthr hr{
-    width: 95%;
+    width: 90%;
     margin-top: 0px;
+    margin: auto;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 .last h1{
@@ -1410,30 +1412,16 @@ body {
         
     }
     .black1{
-        width: 75%;
+        width: 95%;
         margin-top: 30px;
     }
     
     
-    .log {
-        color: white;
-        font-size: 33px;
-        line-height: 80px;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;
-        margin-left: -5px;
-        
+    .navbar-brand{
+        font-size: 20px;
     }
     
-    .log:hover{
-        background: black;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        line-height: 30px;
-        
-    }
+
     .txt{
         margin-top: 25px;
     }
@@ -1452,11 +1440,10 @@ body {
     }
     
     .info {
-        width: 60%;
+        width: 59%;
         display: flex;
         flex-direction: row;
         margin-bottom: 1px;
-        
     }
     
     .p {
@@ -1473,7 +1460,6 @@ body {
         color: #66FCF1;
         margin-left: -1px;
         overflow:hidden;
-        width:355px;
         white-space: nowrap;
         transform: translateX(-100px);
         opacity: 0;
@@ -1486,7 +1472,7 @@ body {
     
     .p h1 {
         margin-top: 60px;
-        font-size: 80px;
+        font-size: 70px;
         font-weight: 600;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
@@ -1503,9 +1489,9 @@ body {
     
     .p h4 {
         border: 2px solid #66FCF1;
-        width: 200px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        width: 180px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
@@ -1534,7 +1520,6 @@ body {
         padding-right: 1px;
         width: 39%;
         background-size: cover;
-    
     }
     
     .menu2 {
@@ -1655,13 +1640,13 @@ body {
     .grey1{
         width:100%;
         background-color: #0B0C10;
-        margin-top: 130px;
+        margin-top: 100px;
         display: flex;
     }
     
     .section2 {
         width: 70%;
-        padding-top: 140px;
+        padding-top: 70px;
         padding-bottom: 100px;
     }
     
@@ -1671,10 +1656,10 @@ body {
     }
     
     .name hr {
-        width: 70px;
+        width: 0px;
         display: block;
         float: left;
-        margin-right: 20px;
+        margin-right: 10px;
         margin-top: 23px;
         border-color: #66FCF1;
         /* background: #66FCF1; */
@@ -1691,7 +1676,7 @@ body {
     .name h3 {
         font-size: 35px;
         font-weight: 550;
-        margin-left: 20px;
+        margin-left: 0px;
         font-family: Tahoma, sans-serif;
         transform: translateX(-100px);
         opacity: 0;
@@ -1706,7 +1691,7 @@ body {
     .name h4 {
         font-size: 15px;
         font-weight: 500;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 30px;
         font-family: Geneva, sans-serif;
         color: #66FCF1;
@@ -1978,18 +1963,19 @@ body {
     
     .section3{
         background-color: #121212;
-        width: 100%; 
-        height: 190vh;
+        width: 100%;
+        margin: 0 auto; 
+        height: 185vh;
     }
     
     .works {
-        width: 85%;
+        width: 80%;
         margin: 0 auto; 
     }
     
     .header1 {
         color: white;
-       /*border:1px solid white; */
+     /*  border:1px solid white; */
     }
     .header1 a{
         text-decoration: none;
@@ -1997,12 +1983,13 @@ body {
     }
     
     .heading hr{
-        width:50px;
+        width:0px;
         height:2px;
         display: block;
+        margin-left: 10px;
         float: left;
-        margin-right: 30px;
-        margin-top: 28px;
+        margin-right: 0px;
+        margin-top: 18px;
         border-color: #66FCF1;
         transform: translateX(-100px);
         opacity: 0;
@@ -2014,7 +2001,7 @@ body {
     }
     
     .heading h3{
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 0px;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 100px;
@@ -2029,13 +2016,13 @@ body {
     
     .heading h4{
         font-size: 16px;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 30px;
         font-weight: normal;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         color:#66FCF1;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         letter-spacing: 0.6px;
         transform: translateX(-100px);
         opacity: 0;
@@ -2046,25 +2033,22 @@ body {
         opacity: 1;
     }
     
-    .heading{
-        float: left;
-    }
     
     .wview{
         border: 2px solid #66FCF1;
-        width: 120px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        width: 110px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         text-align: center;
-        float:right;
-        margin-top: 130px;
-        margin-right: 30px;
-        transform: translateX(100px);
+        margin-top: 120px;
+        margin: auto;
+        transform: translateX(-100px);
         opacity: 0;
         transition: 250ms;
+        margin-bottom: 10px;
     }
     .wview.show{
         transform: translateX(0);
@@ -2077,22 +2061,17 @@ body {
     
     .pictures{
         display: flow-root; 
-        width: 99%;
-        margin-bottom: 20px; 
-        padding-left: 10px;   
-        padding-bottom: 10px;
+        width: 100%;
+        margin: auto;
     }
     
     .pictures img{
-        width: 90%;
-        padding: 1px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 50px;
-        padding-bottom: 30px;
+        width: 99%;
+        margin: auto;
+        padding-right: 20px;
+        margin-bottom: 40px;
     }
     .img1{
-        margin-left: 10px;
         transform: translateY(100px);
         opacity: 0;
         transition: 250ms;
@@ -2102,7 +2081,6 @@ body {
         opacity: 1;
     }
     .img2{
-        margin-left: 10px;
         transform: translateY(100px);
         opacity: 0;
         transition: 450ms;
@@ -2112,7 +2090,6 @@ body {
         opacity: 1;
     }
     .img3{
-        margin-left: 10px;
         transform: translateY(100px);
         opacity: 0;
         transition: 550ms;
@@ -2122,7 +2099,6 @@ body {
         opacity: 1;
     }
     .img4{
-        margin-left: 10px;
         transform: translateY(100px);
         opacity: 0;
         transition: 650ms;
@@ -2135,7 +2111,7 @@ body {
     
     
     .about {
-        width: 70%;
+        width: 80%;
         display: flexbox;
         margin: 0 auto; 
     }
@@ -2146,11 +2122,11 @@ body {
     }
     
     .aname hr{
-        width:50px;
+        width:0px;
         height:2px;
         display: block;
         float: left;
-        margin-right: 30px;
+        margin-right: 10px;
         margin-top: 26px;
         border-color: #66FCF1;
        /* background: #66FCF1; */
@@ -2164,7 +2140,7 @@ body {
     }
     
     .aname h3{
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 0px;
         font-family: arial;
         transform: translateX(-100px);
@@ -2179,7 +2155,7 @@ body {
     
     .aname h4{
         font-size: 16px;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 30px;
         font-family: Geneva, sans-serif;
         color:#66FCF1;
@@ -2296,7 +2272,7 @@ body {
     .amoto{
         color: white;
         display: flow-root; 
-        margin-top: 680px;
+        margin-top: 580px;
         font-family: Arial, Helvetica, sans-serif;
         transform: translateY(100px);
         opacity: 0;
@@ -2336,7 +2312,7 @@ body {
     }
     
     .theader {
-        width: 70%;
+        width: 85%;
         color: white;
         /*border:2px solid white; */
         margin: 0 auto; 
@@ -2344,7 +2320,7 @@ body {
     }
     
     .theader hr{
-        width:50px;
+        width:0px;
         height:2px;
         display: block;
         float: left;
@@ -2362,7 +2338,7 @@ body {
     
     .theader h3{
         font-size: 45px;
-        margin-left: 20px;
+        margin-left: 0px;
         padding-top: 60px; 
         transform: translateX(-100px);
         opacity: 0;
@@ -2400,7 +2376,7 @@ body {
     .feeds{
         width: 90%; 
         margin-left: 20px;
-        margin-right: 10px;
+        margin-right: 0px;
         margin-top: 40px;
         background-color: #121212;
         color: white;
@@ -2439,12 +2415,10 @@ body {
     
     .feeds p{
         text-align: center;
-        margin-left: 60px;
-        margin-right: 60px;
         line-height: 1.5;
         letter-spacing: 0.3px;
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: 20px;
+        margin-top: 20px; 
     }
     
     .feeds h5{
@@ -2555,7 +2529,7 @@ body {
         display: flex;
         flex-direction: column;
         color: white;
-        padding-bottom: 500px;
+        padding-bottom: 100px;
     }
     .socillink{
         display: flex;
@@ -2690,7 +2664,7 @@ body {
         float: left;
     }
     .foo3{
-        width: 40%;
+        width: 80%;
         margin-top: 30px;
         margin: auto;
         text-align: center;
@@ -2719,7 +2693,7 @@ body {
     }
     .foo4{
         margin-top: 50px;
-        width: 40%;
+        width: 80%;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -2744,7 +2718,7 @@ body {
         color: white;
     }
     .foo5{
-        width: 45%;
+        width: 80%;
         margin-top: 30px;
         margin: auto;
         text-align: center;
