@@ -344,9 +344,50 @@ a:hover {
 
 
 
+
+
 @media screen and (max-width: 700px)
 {
-
+    .header {
+        color: white;
+        height: 200px;
+        width: 85%;
+        margin: 0px auto;
+        flex-shrink: 0;
+      /* border:1px solid white; */
+    }
+    
+    .header hr{
+        width:40px;
+        height:2px;
+        display: block;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 25px;
+        border-color: #66FCF1;
+       /* background: #66FCF1; */
+    }
+    
+    .header h3{
+        font-size: 43px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 60px;
+        animation: reveal 1s ease-in;
+    }
+    
+    .header h4{
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 0px;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#66FCF1;
+        margin-bottom: 60px;
+        letter-spacing: 0.6px;
+    }
     .content{
         display:grid;
         margin: auto;
@@ -362,7 +403,8 @@ a:hover {
     }
     .services p{
         font-size: 17px;
-        padding-left: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: justify;
         text-justify: inter-word;
         line-height: 1.5;
@@ -371,174 +413,11 @@ a:hover {
     }
     .ftblock{
         width: 100%;
-    }
-    .foo1{
-        width: 80%;
-        display: flow-root;
-        flex-direction: row;
-        text-align: center;
-        align-items: center;
-        margin-left: 100px;
-    }
-    .foo2{
-        margin-top: 70px;
-        width: 40%;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 150px;
-    }
-    .foo2 a{
-        color: white;
-        height: 10vh;
-        margin-bottom: 2px;
-        width: 5px;
-        font-weight: normal;
-        font-size: 45px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo2 a:hover{
-        background-color: black;
-    }
-    .foo2 p{
         margin-top: 50px;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 1.7;
-        color: rgb(182, 178, 178);
-        margin-bottom: 50px;
-    }
-    .foo2 hr{
-        margin-top: 30px;
-        width: 100px;
-        font-weight: bolder;
-        color: #66FCF1;
-        font-size: normal;
-        float: left;
-    }
-    .foo3{
-        width: 40%;
-        margin-top: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .foo3 h1{
-        margin-top: 60px;
-        color: white;
-        font-weight: normal;
-        font-size: 20px;
-        margin-left: 10px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo3 li{
-        margin-top: 40px;
-        margin-left: 0px;
-        font-size: 16px;
-        color: white;  
-        line-height:10px;
-    }
-    .foo3 a{
-        text-decoration: none;
-        color: white;
-    }
-    .foo4{
-        margin-top: 50px;
-        width: 40%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .foo4 h1{
-        margin-top: 40px;
-        color: white;
-        font-weight: normal;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo4 ul{
-        margin-top: 40px;
-        font-size: 15px;
-        color: white;
-        line-height: 15px;
-        
-    }
-    .foo4 a{
-        text-decoration: none;
-        color: white;
-    }
-    .foo5{
-        width: 45%;
-        margin-top: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .foo5 h1{
-        margin-top: 60px;
-        color: white;
-        font-weight: normal;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo5 li{
-        margin-top: 40px;
-        margin-left: 1px;
-        font-size: 15px;
-        color: white; 
-    }
-    .foo5 li a{
-        /*text-decoration: none; */
-        color: white;
-    }
-    .fthr hr{
-        width: 80%;
-        margin-top: 80px;
-    }
-    .last{
-        width: 80%;
-        height: 5vh;
-        margin: 0 auto;
-    }
-    .last h1{
-        color: rgb(182, 178, 178);
-        font-size: 14px;
-        margin-top: 15px;
-        font-weight: normal;
-        margin-bottom: 5px;
-        float: left;
-    }
-    .koktail a{
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    .llog {
-        float: right;
-        margin: 10px;
-    }
-    .llog a{
-        font-size: 20px;
-        color: whitesmoke;
-        margin: 4px;
-        transition: transform .2s;
-    }
-    .llog a:hover .fa{
-        background: black;
-        -ms-transform: scale(1.2);
-        -webkit-transform: scale(1.2); 
-        transform: scale(1.2); 
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 700px)
-{
-    .ftblock{
-        width: 100%;
         
     }
     .foo1{
-        width: 80%;
+        width: 85%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
@@ -583,7 +462,7 @@ a:hover {
     }
     .foo3{
         width: 80%;
-        margin-top: 50px;
+        margin-top: 0px;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -591,11 +470,11 @@ a:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo3 h1{
-        padding-top: 50px;
+        padding-top: 10px;
         color: white;
         font-weight: normal;
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
@@ -618,10 +497,11 @@ a:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo4 h1{
-        margin-top: 40px;
+        margin-top: 60px;
         color: white;
         font-weight: normal;
         font-size: 20px;
+        margin-left: -5px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo4 ul{
