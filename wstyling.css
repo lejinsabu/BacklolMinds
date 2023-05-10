@@ -1,0 +1,546 @@
+* {
+    background-color: black;
+}
+* {
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+}
+.nav-item{
+    padding-right: 1px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.log {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.log:hover{
+    background: black;
+}
+
+.txt{
+    margin-top: 25px;
+}
+nav ul li a{
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 9px;
+    border-radius: px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    min-width: 80px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+    position: relative;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+    margin-top: 0px;
+    text-decoration: none;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+    padding-right: 0px;
+    /* Display the dropdown */
+}
+
+a.li,
+a:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+    transform: .5s;
+}
+
+.header {
+    color: white;
+    height: 200px;
+    width: 85%;
+    margin: 20px auto;
+    flex-shrink: 0;
+   /*border:1px solid white; */
+}
+.heading h5{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #66FCF1;
+    margin-left:0px;
+    margin-top: 0px;
+    width:355px;
+    white-space: nowrap;
+}
+
+.header hr{
+    width:70px;
+    height:2px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-top: 28px;
+    border-color: #66FCF1;
+   /* background: #66FCF1; */
+}
+
+.header h3{
+    font-size: 50px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    animation: reveal 1s ease-in;
+}
+
+.header h4{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#66FCF1;
+    margin-bottom: 60px;
+    letter-spacing: 0.6px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.heading{
+    width: 80%;
+    margin: auto;
+}
+
+.home{
+    border: 2px solid #66FCF1;
+    height: 40px;
+    width: 200px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    float:right;
+    margin-top: 130px;
+    margin-right: 80px;
+}
+
+.home:hover{
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*
+.column:nth-child(1){
+    background-color: skyblue;
+}
+.column:nth-child(2){
+    background-color: palevioletred;
+}
+.column:nth-child(3){
+    background-color: greenyellow;
+}
+.column:nth-child(4){
+    background-color: lightcoral;
+}
+*/
+
+.column{
+    flex: 1;
+    min-width: 300px;
+    padding: 1px;
+}
+
+img{
+    width: 100%;
+}
+
+.ftblock{
+    width: 90%;
+    margin: 0 auto;
+   /*border: 1px solid white; */
+}
+.foo1{
+    width: 95%;
+    display: flex;
+    flex-direction: row; 
+    /*border: 1px solid yellow;*/
+}
+.foo2{
+    margin-top: 20px;
+    width: 40%;
+    padding-right: 20px;
+    /*border: 1px solid blue;*/
+}
+
+.foo2 a{
+    color: rgb(202, 202, 202);
+    width: 5px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.foo2 a:hover{
+    background-color: black;
+    color: white;
+}
+.foo2 p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(202, 202, 202);
+    margin-bottom: 1px;
+}
+/*.foo2 hr{
+    margin-top: 30px;
+    width: 100px;
+    font-weight: bolder;
+    color: #66FCF1;
+    font-size: normal;
+    float: left;
+    border: 1px solid white;
+} 
+.foo{
+    width: 15%;
+} */
+.foo3{
+    width: 18%;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid white;*/
+}
+.foo3 h1{
+    margin-top: 0px;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+  /*  margin-left: 30px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo3 li{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(202, 202, 202); 
+    line-height:3px;
+    list-style: none;
+}
+.foo3 a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.foo3 a:hover{
+    color: white;
+}
+.foo4{
+    margin-top: 0px;
+    width: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  /*  border: 1px solid green;*/
+}
+.foo4 h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo4 ul{
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(202, 202, 202);
+    line-height: 3px;
+    text-align: center;
+}
+.foo4 a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(202, 202, 202);
+}
+.foo4 a:hover{
+    color: white;
+}
+.foo5{
+    width: 20%;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid red;*/
+}
+.foo5 h1{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo5 li{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(202, 202, 202);
+    list-style: none;
+    line-height: 1;
+}
+.foo5 li a{
+    /*text-decoration: none; */
+    color: rgb(202, 202, 202);
+}
+.fthr hr{
+    width: 100%;
+    margin-top: 0px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.last{
+    width: 100%;
+    margin: 0 auto;
+}
+.last h1{
+    color: rgb(202, 202, 202);
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    float: left;
+}
+.koktail a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.llog {
+    margin-top: 45px;
+    margin-bottom: 4px;
+}
+.llog a{
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+    margin: 15px;
+    transition: transform .2s;
+}
+.llog a:hover .fa{
+    background: black;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .ftblock{
+        width: 100%;
+        
+    }
+    .foo1{
+        width: 80%;
+        display: flow-root;
+        margin: auto;
+        flex-direction: row;
+    }
+    .foo2{
+        margin-top: 70px;
+        padding-top: 30px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 50px;
+    }
+    .foo2 a{
+        color: white;
+        height: 10vh;
+        margin-bottom: 2px;
+        text-decoration: none;
+        width: 5px;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo2 a:hover{
+        background-color: black;
+    }
+    .foo2 p{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgb(182, 178, 178);
+        margin-bottom: 50px;
+    }
+    .foo2 hr{
+        margin-top: 30px;
+        width: 100px;
+        font-weight: bolder;
+        color: #66FCF1;
+        font-size: normal;
+        float: left;
+    }
+    .foo3{
+        width: 100%;
+        margin-top: 30px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foo3 h1{
+        margin-top: 60px;
+        color: white;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo3 li{
+        margin-top: 40px;
+        margin-left: 0px;
+        font-size: 16px;
+        color: white;  
+        line-height:10px;
+    }
+    .foo3 a{
+        text-decoration: none;
+        color: white;
+    }
+    .foo4{
+        margin-top: 50px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foo4 h1{
+        margin-top: 40px;
+        color: white;
+        font-weight: normal;
+        margin-left: -10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo4 ul{
+        margin-top: 40px;
+        font-size: 15px;
+        color: white;
+        line-height: 15px; 
+        margin-left: -30px;  
+    }
+    .foo4 a{
+        text-decoration: none;
+        color: white;
+    }
+    .foo5{
+        width: 100%;
+        margin-top: 30px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .foo5 h1{
+        margin-top: 60px;
+        color: white;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo5 li{
+        margin-top: 40px;
+        margin-left: 1px;
+        font-size: 15px;
+        color: white; 
+    }
+    .foo5 li a{
+        /*text-decoration: none; */
+        color: white;
+    }
+    .fthr hr{
+        width: 100%;
+        margin-top: 80px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .last{
+        width: 100%;
+        height: 5vh;
+        margin: 0 auto;
+    }
+    .last h1{
+        color: rgb(182, 178, 178);
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: normal;
+        margin-bottom: 5px;
+        float: left;
+    }
+    .koktail a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .llog {   
+        margin: 5px;
+    }
+    .llog a{
+        font-size: 20px;
+        color: whitesmoke;
+        margin: 5px;
+        transition: transform .2s;
+    }
+    .llog a:hover .fa{
+        background: black;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+        transform: scale(1.2); 
+    }
+    
+}
