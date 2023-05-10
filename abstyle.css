@@ -85,7 +85,7 @@ a:hover {
 }
 
 .header hr{
-    width:70px;
+    width:60px;
     height:2px;
     display: block;
     float: left;
@@ -355,6 +355,46 @@ a:hover {
 
 @media screen and (max-width: 700px)
 {
+
+.header {
+    color: white;
+    height: 200px;
+    width: 85%;
+    margin: 20px auto;
+    flex-shrink: 0;
+   /* border:1px solid white; */
+}
+
+.header hr{
+    width:40px;
+    height:2px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 28px;
+    border-color: #66FCF1;
+   /* background: #66FCF1; */
+}
+
+.header h3{
+    font-size: 43px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    animation: reveal 1s ease-in;
+}
+
+.header h4{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#66FCF1;
+    margin-bottom: 50px;
+    letter-spacing: 0.6px;
+}
     .ftblock{
         width: 100%;
         
@@ -368,7 +408,7 @@ a:hover {
     .foo2{
         margin-top: 70px;
         padding-top: 30px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         text-align: center;
         align-items: center;
