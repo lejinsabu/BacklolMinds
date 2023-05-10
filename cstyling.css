@@ -151,7 +151,7 @@ label{
     width: 100px;
     border: none;
     outline: none;
-    color: black;
+    color: rgb(0, 0, 0);
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
@@ -177,6 +177,9 @@ label{
 .button1:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+button i{
+    background-color: transparent;
 }
 .button2{
     background: #2B3E4C;
@@ -419,6 +422,16 @@ tr td{
 
 @media screen and (max-width: 700px)
 {
+    h1{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: #66FCF1;
+        margin-top: 30px;
+    }
+    p{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
     .contactbox{
         background: #ffffff;
         display: flow-root;
@@ -428,13 +441,14 @@ tr td{
         background-size: cover; */
         flex-basis: 100%;
         width: 100%;
+        padding:40px 10px;
         border-bottom: 2px solid #66FCF1;
     }
     .contactright{
         background-image: url(image/3swan.jpg);
         background-size: cover;
         flex-basis: 100%;
-        padding:40px;
+        padding:20px;
         border-bottom: 2px solid #121212;
        /* background: rgb(53, 50, 50);*/
     }
@@ -448,7 +462,7 @@ tr td{
         
     }
     .foo1{
-        width: 80%;
+        width: 95%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
@@ -506,7 +520,7 @@ tr td{
         color: white;
         font-weight: normal;
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
@@ -529,10 +543,10 @@ tr td{
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo4 h1{
-        margin-top: 40px;
+        margin-top: 60px;
         color: white;
         font-weight: normal;
-        margin-left: -10px;
+        margin-left: 0px;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
