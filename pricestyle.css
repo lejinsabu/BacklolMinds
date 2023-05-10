@@ -391,18 +391,55 @@ a:hover {
 
 @media screen and (max-width: 700px)
 {
+
+.header hr{
+    width:40px;
+    height:2px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 28px;
+    border-color: #66FCF1;
+   /* background: #66FCF1; */
+}
+
+.header h3{
+    font-size: 43px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    animation: reveal 1s ease-in;
+}
+
+.header h4{
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#66FCF1;
+    margin-bottom: 60px;
+    letter-spacing: 0.6px;
+}
     .blog1{
         border: 1px solid white;
         display:flow-root;
         margin-bottom: 40px;
+        padding-bottom: 20px;
         box-shadow: inset #66FCF1;
+
     }
     .blog1 img{
         width: 85%;
         height: 30vh;
-        margin-left: 30px;
+        margin-left: 27px;
         border: 1px solid #66FCF1;
         margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .content{
+        margin-left: 0px;
     }
     .content{
         align-items: center;
@@ -412,19 +449,38 @@ a:hover {
     .content h1{
         margin: auto;
         margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        padding-right: 30px;
+
     }
     .content p{
         padding-top: 15px;
         padding-left: 30px;
-        padding-right: 50px;
-        font-size: 20px;
+        padding-right: 30px;
+        font-size: 19px;
+
     }
+    .button {
+        display: inline-block;
+        border-radius: 1px;
+        background-color: #7fd6d6;
+        border: none;
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        padding: 8px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
     .ftblock{
         width: 100%;
         
     }
     .foo1{
-        width: 80%;
+        width: 95%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
@@ -482,7 +538,7 @@ a:hover {
         color: white;
         font-weight: normal;
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
@@ -508,7 +564,7 @@ a:hover {
         margin-top: 40px;
         color: white;
         font-weight: normal;
-        margin-left: -10px;
+        margin-left: 0px;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
