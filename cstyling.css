@@ -1,0 +1,616 @@
+* {
+    background-color: black;
+}
+* {
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+}
+.nav-item{
+    padding-right: 1px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.anotherpage{
+    margin:50px auto;
+    color: white;
+    width:85%;
+}
+
+.log {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: -5px;
+    text-decoration: none;
+}
+
+.log:hover{
+    background: rgb(177, 106, 106);
+}
+
+.txt{
+    margin-top: 25px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    min-width: 80px;
+    background: rgb(243, 241, 241);
+    position: absolute;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(248, 244, 244);
+    border: 1px solid white;
+    font-size: 15px;
+    position: relative;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+    margin-top: 0px;
+    text-decoration: none;
+    position: fixed;
+    color: rgb(197, 25, 25);
+    padding-top: 5px;
+    padding-bottom: 4px;
+    /* Display the dropdown */
+}
+
+
+.contactbox{
+    background: #ffffff;
+    display: flex;
+}
+.contactleft{
+    /*background-image: url(image/2swan.png);
+    background-size: cover; */
+    flex-basis: 60%;
+    padding:40px 60px;
+    border-bottom: 2px solid #66FCF1;
+}
+.contactright{
+    background-image: url(image/3swan.jpg);
+    background-size: cover;
+    flex-basis: 40%;
+    padding:40px;
+    border-bottom: 2px solid #121212;
+   /* background: rgb(53, 50, 50);*/
+}
+h5{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #66FCF1;
+    margin-left:0px;
+    margin-top: 0px;
+    width:355px;
+    white-space: nowrap;
+}
+h1{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    color: #66FCF1;
+    margin-top: 30px;
+}
+p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.inputrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inpitrow .inputgroup{
+    flex-basis: 45%;
+}
+input{
+    width:100%;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #48c0b8;
+    outline: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #66FCF1;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: whitesmoke;
+    background-color: transparent;
+}
+.button{
+    background: #66FCF1;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #274b48;
+    transition: 0.2s;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.button1{
+    background: #2B3E4C;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #264240;
+    transition: 0.2s;
+}
+.button1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.button2{
+    background: #2B3E4C;
+    width: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #264240;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+.button2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.contactleft h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.contactright h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+table{
+    background-color: transparent;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    background-color: transparent;
+}
+.back{
+    margin-top: 20px;
+}
+.back a{
+    color: white;
+    margin-left: 20px;
+}
+
+
+.ftblock{
+    width: 100%;
+   /*border: 1px solid white; */
+}
+.foo1{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    /*border: 1px solid yellow;*/
+}
+.foo2{
+    margin-top: 20px;
+    width: 40%;
+    padding-right: 20px;
+    /*border: 1px solid blue;*/
+}
+
+.foo2 a{
+    color: rgb(202, 202, 202);
+    width: 5px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.foo2 a:hover{
+    background-color: black;
+    color: white;
+}
+.foo2 p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(202, 202, 202);
+    margin-bottom: 1px;
+}
+/*.foo2 hr{
+    margin-top: 30px;
+    width: 100px;
+    font-weight: bolder;
+    color: #66FCF1;
+    font-size: normal;
+    float: left;
+    border: 1px solid white;
+} 
+.foo{
+    width: 15%;
+} */
+.foo3{
+    width: 18%;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid white;*/
+}
+.foo3 h1{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+  /*  margin-left: 30px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo3 li{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(202, 202, 202); 
+    line-height:3px;
+    list-style: none;
+}
+.foo3 a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.foo3 a:hover{
+    color: white;
+}
+.foo4{
+    margin-top: 0px;
+    width: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  /*  border: 1px solid green;*/
+}
+.foo4 h1{
+    margin-top: 40px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo4 ul{
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(202, 202, 202);
+    line-height: 3px;
+    text-align: center;
+    margin-left: -15px;
+}
+.foo4 a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(202, 202, 202);
+}
+.foo4 a:hover{
+    color: white;
+}
+.foo5{
+    width: 20%;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* border: 1px solid red;*/
+}
+.foo5 h1{
+    margin-top: 40px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo5 li{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(202, 202, 202);
+    list-style: none;
+    line-height: 1;
+}
+.foo5 li a{
+    /*text-decoration: none; */
+    color: rgb(202, 202, 202);
+}
+.fthr hr{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.last{
+    width: 100%;
+    margin: 8px auto;
+}
+.last h1{
+    color: rgb(202, 202, 202);
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    float: left;
+}
+.koktail a{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+.llog {
+    margin-top: 45px;
+    margin-bottom: 4px;
+}
+.llog a{
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+    margin: 15px;
+    transition: transform .2s;
+}
+.llog a:hover .fa{
+    background: black;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .contactbox{
+        background: #ffffff;
+        display: flow-root;
+    }
+    .contactleft{
+        /*background-image: url(image/2swan.png);
+        background-size: cover; */
+        flex-basis: 100%;
+        width: 100%;
+        border-bottom: 2px solid #66FCF1;
+    }
+    .contactright{
+        background-image: url(image/3swan.jpg);
+        background-size: cover;
+        flex-basis: 100%;
+        padding:40px;
+        border-bottom: 2px solid #121212;
+       /* background: rgb(53, 50, 50);*/
+    }
+    .inputrow{
+        display: flow-root;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .ftblock{
+        width: 100%;
+        
+    }
+    .foo1{
+        width: 80%;
+        display: flow-root;
+        margin: auto;
+        flex-direction: row;
+    }
+    .foo2{
+        margin-top: 70px;
+        padding-top: 30px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 50px;
+    }
+    .foo2 a{
+        color: white;
+        height: 10vh;
+        margin-bottom: 2px;
+        text-decoration: none;
+        width: 5px;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo2 a:hover{
+        background-color: black;
+    }
+    .foo2 p{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgb(182, 178, 178);
+        margin-bottom: 50px;
+    }
+    .foo2 hr{
+        margin-top: 30px;
+        width: 100px;
+        font-weight: bolder;
+        color: #66FCF1;
+        font-size: normal;
+        float: left;
+    }
+    .foo3{
+        width: 100%;
+        margin-top: 30px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foo3 h1{
+        margin-top: 60px;
+        color: white;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo3 li{
+        margin-top: 40px;
+        margin-left: 0px;
+        font-size: 16px;
+        color: white;  
+        line-height:10px;
+    }
+    .foo3 a{
+        text-decoration: none;
+        color: white;
+    }
+    .foo4{
+        margin-top: 50px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foo4 h1{
+        margin-top: 40px;
+        color: white;
+        font-weight: normal;
+        margin-left: -10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo4 ul{
+        margin-top: 40px;
+        font-size: 15px;
+        color: white;
+        line-height: 15px; 
+        margin-left: -30px;  
+    }
+    .foo4 a{
+        text-decoration: none;
+        color: white;
+    }
+    .foo5{
+        width: 100%;
+        margin-top: 30px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .foo5 h1{
+        margin-top: 60px;
+        color: white;
+        font-weight: normal;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .foo5 li{
+        margin-top: 40px;
+        margin-left: 1px;
+        font-size: 15px;
+        color: white; 
+    }
+    .foo5 li a{
+        /*text-decoration: none; */
+        color: white;
+    }
+    .fthr hr{
+        width: 100%;
+        margin-top: 80px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .last{
+        width: 100%;
+        height: 5vh;
+        margin: 0 auto;
+    }
+    .last h1{
+        color: rgb(182, 178, 178);
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: normal;
+        margin-bottom: 5px;
+        float: left;
+    }
+    .koktail a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .llog {   
+        margin: 5px;
+    }
+    .llog a{
+        font-size: 20px;
+        color: whitesmoke;
+        margin: 5px;
+        transition: transform .2s;
+    }
+    .llog a:hover .fa{
+        background: black;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+        transform: scale(1.2); 
+    }
+    
+}
