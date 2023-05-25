@@ -78,7 +78,7 @@ a:hover {
 .header {
     color: white;
     height: 200px;
-    width: 85%;
+    width: 90%;
     margin: 20px auto;
     flex-shrink: 0;
    /*border:1px solid white; */
@@ -133,9 +133,13 @@ a:hover {
 .content{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .content-left{
-    flex-basis: 38%;
+    flex-basis: 37%;
+}
+.content-left img{
+    width: 100%;
 }
 .content-right{
     flex-basis: 60%;
@@ -155,6 +159,9 @@ a:hover {
     color: white;
     font-size: 17px;
     margin-left: 30px;
+    padding: 5px;
+    border: 1px solid #66FCF1;
+    border-radius: 4px;
 }
 
 .price{
@@ -409,6 +416,7 @@ a:hover {
 }
 .content-right{
     flex-basis: 90%;
+    margin-top: 15px;
 }
 
 
@@ -585,4 +593,3 @@ a:hover {
 }
 
 }
-
