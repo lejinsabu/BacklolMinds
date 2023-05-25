@@ -19,13 +19,14 @@ body {
 .row{
     display: flex;
     width: 100%;
+    margin: 0 auto;
     justify-content: space-between;
 }
 .info{
     flex-basis: 60%;
 }
 .image{
-    flex-basis: 38%;     
+    flex-basis: 28%;    
 }
 
 .p h1 {
@@ -1456,7 +1457,9 @@ body {
         flex-direction: row;
         margin-bottom: 1px;
     }
-    
+    .row{
+        margin: 0 auto;
+    }
     .p {
         display: inline-block;
         flex-direction: column;
@@ -2288,7 +2291,7 @@ body {
         transform: translateY(100px);
         opacity: 0;
         transition: 350ms;
-        padding-top: 50px;    
+        padding-top: 280px;    
     }
     .amoto.show{
         transform: translateY(0);
