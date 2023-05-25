@@ -16,6 +16,17 @@ body {
     color: white;
 }
 
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.info{
+    flex-basis: 60%;
+}
+.image{
+    flex-basis: 38%;     
+}
 
 .p h1 {
     margin-top: 200px;
@@ -1405,7 +1416,7 @@ body {
 
 
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 800px)
 {
     .black{
         width: 100%;
