@@ -108,6 +108,7 @@ a:hover {
 
 .d2{
     display: flex;
+    margin-top: 30px;
    /* border: 1px solid green;*/
 }
 .services h5{
@@ -136,7 +137,7 @@ a:hover {
     float: left;
     width: 500px;
     vertical-align: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .services p{
     font-size: 19px;
@@ -404,6 +405,7 @@ a:hover {
     .services p{
         font-size: 17px;
         padding-left: 10px;
+        padding-top: 20px;
         padding-right: 10px;
         text-align: justify;
         text-justify: inter-word;
@@ -427,7 +429,7 @@ a:hover {
         
     }
     .foo1{
-        width: 85%;
+        width: 95%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
@@ -462,7 +464,14 @@ a:hover {
         color: rgb(182, 178, 178);
         margin-bottom: 50px;
     }
-    
+    .foo2 hr{
+        margin-top: 30px;
+        width: 100px;
+        font-weight: bolder;
+        color: #66FCF1;
+        font-size: normal;
+        float: left;
+    }
     .foo3{
         width: 80%;
         margin-top: 0px;
@@ -548,7 +557,6 @@ a:hover {
         width: 100%;
         margin-top: 80px;
         margin: auto;
-        color: white;
         text-align: center;
         align-items: center;
     }
