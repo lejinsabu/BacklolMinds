@@ -3,6 +3,7 @@
 }
 * {
     padding: 0;
+    margin: 0;
 }
 
 .navbar{
@@ -132,19 +133,23 @@ a:hover {
 .blog1{
     box-sizing: border-box;
     border: 1px solid white;
+    border-radius: 10px;
     display:flex;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     box-shadow: inset #66FCF1;
 }
-
-.blog1 img{
+.pic{
+    flex-basis: 19%;
+}
+.pic img{
     float: left;
-    width: 200%;
+    width: 100%;
     margin: 15px 0px 15px 20px;
-    border: 1px solid #66FCF1;
+    border-right: 4px solid #66FCF1;
 }
 .content{
-    margin-left: 200px;
+    flex-basis: 79%;
+    margin-left: 50px;
 }
 .content h1{
     padding-top: 25px;
@@ -154,6 +159,9 @@ a:hover {
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 50px;
+    text-align: justify;
+        text-justify: inter-word;
+        line-height: 1.5;
     font-size: 20px;
 }
 
@@ -344,7 +352,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 800px)
 {
 
     .heading hr{
@@ -443,7 +451,7 @@ a:hover {
         .foo2{
             margin-top: 70px;
             padding-top: 30px;
-            width: 80%;
+            width: 90%;
             margin: auto;
             text-align: center;
             align-items: center;
@@ -564,7 +572,6 @@ a:hover {
             width: 100%;
             margin-top: 80px;
             margin: auto;
-            color: white;
             text-align: center;
             align-items: center;
         }
