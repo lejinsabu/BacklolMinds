@@ -76,7 +76,7 @@ a:hover {
 .header {
     color: white;
     height: 200px;
-    width: 85%;
+    width: 100%;
     margin: 20px auto;
     flex-shrink: 0;
    /*border:1px solid white; */
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .heading{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -374,7 +374,7 @@ img{
 @media screen and (max-width: 700px)
 {
 
-.header hr{
+.heading hr{
     width:40px;
     height:2px;
     display: block;
@@ -415,7 +415,7 @@ img{
 }
 
     .ftblock{
-        width: 100%;
+        width: 90%;
         
     }
     .foo1{
@@ -548,7 +548,6 @@ img{
         width: 100%;
         margin-top: 80px;
         margin: auto;
-        color: white;
         text-align: center;
         align-items: center;
     }
