@@ -15,17 +15,12 @@ body {
 .nav-item{
     padding-right: 1px;
 }
+.mynavbar nav .container-fluid .d-flex a{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
 /*convert the container to a flexbox*/
 
-
-.log {
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-left: -5px;
-}
 
 .log:hover{
     background: black;
@@ -35,7 +30,7 @@ body {
 .txt{
     margin-top: 25px;
 }
-nav ul li a{
+/* nav ul li a{
     color: rgb(255, 254, 254);
     font-size: 15px;
     font-weight: 600;
@@ -65,9 +60,9 @@ nav ul li:hover ul.dropdown {
     padding-left: 0px;
     padding-right: 0px;
    /*  color: rgb(0, 0, 0);
-    Display the dropdown */
-}
-
+    Display the dropdown 
+} 
+*/
 a.li,
 a:hover {
     color: white;
@@ -78,10 +73,14 @@ a:hover {
 .header {
     color: white;
     height: 200px;
-    width: 85%;
+    width: 90%;
     margin: 20px auto;
     flex-shrink: 0;
    /* border:1px solid white; */
+}
+.services{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .header hr{
@@ -98,7 +97,7 @@ a:hover {
 .header h3{
     font-size: 50px;
     margin-left: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
     animation: reveal 1s ease-in;
 }
@@ -162,12 +161,14 @@ a:hover {
 
 .ftblock{
     width: 100%;
+    margin-top: 30px;
    /*border: 1px solid white; */
 }
 .foo1{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: row; 
+    margin: auto;
     /*border: 1px solid yellow;*/
 }
 .foo2{
@@ -182,9 +183,9 @@ a:hover {
     width: 5px;
     margin-top: 10px;
     font-weight: normal;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .foo2 a:hover{
     background-color: black;
@@ -221,16 +222,14 @@ a:hover {
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 22px;
-    text-align: center;
   /*  margin-left: 30px; */
     font-family: 'Times New Roman', Times, serif;
 }
 .foo3 li{
     margin-top: 30px;
-    text-align: center;
     font-size: 15px;
     color: rgb(202, 202, 202); 
-    line-height:3px;
+    line-height:0.5px;
     list-style: none;
 }
 .foo3 a{
@@ -244,42 +243,37 @@ a:hover {
     margin-top: 0px;
     width: 18%;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-  /*  border: 1px solid green;*/
+   /* border: 1px solid green;*/
 }
 .foo4 h1{
     margin-top: 40px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
-    margin-left: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .foo4 ul{
     margin-top: 30px;
     font-size: 16px;
     color: rgb(202, 202, 202);
-    line-height: 3px;
-    text-align: center;
+    line-height: 0.5px;
+    padding: 0.1px;
 }
 .foo4 a{
     text-decoration: none;
-    text-align: center;
     color: rgb(202, 202, 202);
 }
 .foo4 a:hover{
     color: white;
 }
 .foo5{
-    width: 20%;
+    width: 18%;
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
    /* border: 1px solid red;*/
 }
 .foo5 h1{
     margin-top: 40px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -287,11 +281,12 @@ a:hover {
 }
 .foo5 li{
     margin-top: 30px;
-    text-align: center;
+    margin-left: 1px;
     font-size: 15px;
     color: rgb(202, 202, 202);
     list-style: none;
-    line-height: 1;
+    line-height:0.5px;
+    padding: 0.1px;
 }
 .foo5 li a{
     /*text-decoration: none; */
@@ -299,20 +294,20 @@ a:hover {
 }
 .fthr hr{
     width: 100%;
-    height: 0.5px;
     margin-top: 0px;
+    margin: 0 auto;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
     width: 100%;
-    margin: 0 auto;
+    margin: 8px auto;
 }
 .last h1{
     color: rgb(202, 202, 202);
     font-size: 14px;
     margin-top: 0px;
     font-weight: normal;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     float: left;
 }
 .koktail a{
@@ -364,6 +359,9 @@ a:hover {
     flex-shrink: 0;
    /* border:1px solid white; */
 }
+.mynavbar nav .container-fluid .d-flex a{
+    font-size: 29px;
+}
 
 .heading hr{
     width:40px;
@@ -379,7 +377,7 @@ a:hover {
 .header h3{
     font-size: 43px;
     margin-left: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 80px;
     animation: reveal 1s ease-in;
 }
@@ -395,174 +393,173 @@ a:hover {
     margin-bottom: 50px;
     letter-spacing: 0.6px;
 }
-    .ftblock{
-        width: 100%;
-        
-    }
-    .foo1{
-        width: 90%;
-        display: flow-root;
-        margin: auto;
-        flex-direction: row;
-    }
-    .foo2{
-        margin-top: 70px;
-        padding-top: 30px;
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 50px;
-    }
-    .foo2 a{
-        color: white;
-        height: 10vh;
-        margin-bottom: 2px;
-        text-decoration: none;
-        width: 5px;
-        font-weight: normal;
-        font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo2 a:hover{
-        background-color: black;
-    }
-    .foo2 p{
-        margin-top: 30px;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 1.7;
-        color: rgb(182, 178, 178);
-        margin-bottom: 50px;
-    }
-    .foo2 hr{
-        margin-top: 30px;
-        width: 100px;
-        font-weight: bolder;
-        color: #66FCF1;
-        font-size: normal;
-        float: left;
-    }
-    .foo3{
-        width: 100%;
-        margin-top: 30px;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-        
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .foo3 h1{
-        margin-top: 60px;
-        color: white;
-        font-weight: normal;
-        font-size: 20px;
-        margin-left: 10px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo3 li{
-        margin-top: 40px;
-        margin-left: 0px;
-        font-size: 16px;
-        color: white;  
-        line-height:10px;
-    }
-    .foo3 a{
-        text-decoration: none;
-        color: white;
-    }
-    .foo4{
-        margin-top: 50px;
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .foo4 h1{
-        margin-top: 40px;
-        color: white;
-        font-weight: normal;
-        margin-left: -10px;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo4 ul{
-        margin-top: 40px;
-        font-size: 15px;
-        color: white;
-        line-height: 15px; 
-        margin-left: -30px;  
-    }
-    .foo4 a{
-        text-decoration: none;
-        color: white;
-    }
-    .foo5{
-        width: 100%;
-        margin-top: 30px;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
-    }
-    .foo5 h1{
-        margin-top: 60px;
-        color: white;
-        font-weight: normal;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .foo5 li{
-        margin-top: 40px;
-        margin-left: 1px;
-        font-size: 15px;
-        color: white; 
-    }
-    .foo5 li a{
-        /*text-decoration: none; */
-        color: white;
-    }
-    .fthr hr{
-        width: 100%;
-        margin-top: 80px;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-    }
-    .last{
-        width: 100%;
-        height: 5vh;
-        margin: 0 auto;
-    }
-    .last h1{
-        color: rgb(182, 178, 178);
-        font-size: 14px;
-        margin-top: 15px;
-        font-weight: normal;
-        margin-bottom: 5px;
-        float: left;
-    }
-    .koktail a{
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    .llog {   
-        margin: 5px;
-    }
-    .llog a{
-        font-size: 20px;
-        color: whitesmoke;
-        margin: 5px;
-        transition: transform .2s;
-    }
-    .llog a:hover .fa{
-        background: black;
-        -ms-transform: scale(1.2);
-        -webkit-transform: scale(1.2); 
-        transform: scale(1.2); 
-    }
+.ftblock{
+    width: 100%;
+    
+}
+.foo1{
+    width: 100%;
+    display: flow-root;
+    margin: auto;
+    flex-direction: row;
+}
+.foo2{
+    margin-top: 70px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.foo2 a{
+    color: white;
+    height: 10vh;
+    margin-bottom: 2px;
+    text-decoration: none;
+    width: 5px;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.foo2 a:hover{
+    background-color: black;
+}
+.foo2 p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(182, 178, 178);
+    margin-bottom: 50px;
+}
+.foo2 hr{
+    margin-top: 30px;
+    width: 100px;
+    font-weight: bolder;
+    color: #66FCF1;
+    font-size: normal;
+    float: left;
+}
+.foo3{
+    width: 80%;
+    margin-top: 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foo3 h1{
+    margin-top: 40px;
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo3 li{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 16px;
+    color: white;  
+    line-height:10px;
+}
+.foo3 a{
+    text-decoration: none;
+    color: white;
+}
+.foo4{
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foo4 h1{
+    margin-top: 40px;
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo4 ul{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    line-height: 1; 
+    margin-left: 0px;  
+}
+.foo4 a{
+    text-decoration: none;
+    color: white;
+}
+.foo5{
+    width: 80%;
+    margin-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.foo5 h1{
+    margin-top: 40px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foo5 li{
+    margin-top: 30px;
+    margin-left: 1px;
+    font-size: 15px;
+    color: white; 
+}
+.foo5 li a{
+    /*text-decoration: none; */
+    color: white;
+}
+.fthr hr{
+    width: 100%;
+    height: 2px;
+    margin-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.last{
+    width: 100%;
+    height: 5vh;
+    margin: 0 auto;
+}
+.last h1{
+    color: rgb(182, 178, 178);
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    float: left;
+}
+.koktail a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.llog {   
+    margin: 5px;
+}
+.llog a{
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 8px;
+    transition: transform .2s;
+}
+.llog a:hover .fa{
+    background: black;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
     
 }
