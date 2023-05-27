@@ -16,7 +16,10 @@ body {
     padding-right: 1px;
 }
 /*convert the container to a flexbox*/
-
+.mynavbar nav .container-fluid .d-flex a{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .log {
     color: white;
@@ -54,10 +57,14 @@ a:hover {
 .header {
     color: white;
     height: 200px;
-    width: 85%;
+    width: 90%;
     margin: 20px auto;
     flex-shrink: 0;
   /* border:1px solid white; */
+}
+.services{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .header hr{
@@ -160,15 +167,16 @@ a:hover {
 }
 
 
-
 .ftblock{
     width: 100%;
+    margin-top: 30px;
    /*border: 1px solid white; */
 }
 .foo1{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: row; 
+    margin: auto;
     /*border: 1px solid yellow;*/
 }
 .foo2{
@@ -183,9 +191,9 @@ a:hover {
     width: 5px;
     margin-top: 10px;
     font-weight: normal;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .foo2 a:hover{
     background-color: black;
@@ -207,31 +215,29 @@ a:hover {
     font-size: normal;
     float: left;
     border: 1px solid white;
-}
+} 
 .foo{
     width: 15%;
-}*/
+} */
 .foo3{
     width: 18%;
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
-  /*  border: 1px solid white;*/
+   /* border: 1px solid white;*/
 }
 .foo3 h1{
     margin-top: 0px;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 22px;
-    text-align: center;
   /*  margin-left: 30px; */
     font-family: 'Times New Roman', Times, serif;
 }
 .foo3 li{
     margin-top: 30px;
-    text-align: center;
     font-size: 15px;
     color: rgb(202, 202, 202); 
-    line-height:3px;
+    line-height:0.5px;
     list-style: none;
 }
 .foo3 a{
@@ -243,14 +249,12 @@ a:hover {
 }
 .foo4{
     margin-top: 0px;
-    width: 20%;
+    width: 18%;
     font-family: Arial, Helvetica, sans-serif;
    /* border: 1px solid green;*/
 }
 .foo4 h1{
     margin-top: 40px;
-    text-align: center;
-    margin-left: 25px;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -259,10 +263,9 @@ a:hover {
 .foo4 ul{
     margin-top: 30px;
     font-size: 16px;
-    text-align: center;
     color: rgb(202, 202, 202);
-    line-height: 3px;
-    
+    line-height: 0.5px;
+    padding: 0.1px;
 }
 .foo4 a{
     text-decoration: none;
@@ -272,14 +275,13 @@ a:hover {
     color: white;
 }
 .foo5{
-    width: 20%;
+    width: 18%;
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
-  /*  border: 1px solid red;*/
+   /* border: 1px solid red;*/
 }
 .foo5 h1{
     margin-top: 40px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -287,11 +289,12 @@ a:hover {
 }
 .foo5 li{
     margin-top: 30px;
-    text-align: center;
+    margin-left: 1px;
     font-size: 15px;
     color: rgb(202, 202, 202);
     list-style: none;
-    line-height: 1;
+    line-height:0.5px;
+    padding: 0.1px;
 }
 .foo5 li a{
     /*text-decoration: none; */
@@ -299,20 +302,20 @@ a:hover {
 }
 .fthr hr{
     width: 100%;
-    height: 0.5px;
     margin-top: 0px;
+    margin: 0 auto;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
     width: 100%;
-    margin: 0 auto;
+    margin: 8px auto;
 }
 .last h1{
     color: rgb(202, 202, 202);
     font-size: 14px;
     margin-top: 0px;
     font-weight: normal;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     float: left;
 }
 .koktail a{
@@ -346,13 +349,15 @@ a:hover {
 
 
 
-
 @media screen and (max-width: 700px)
 {
+    .mynavbar nav .container-fluid .d-flex a{
+        font-size: 29px;
+    }
     .header {
         color: white;
         height: 200px;
-        width: 85%;
+        width: 90%;
         margin: 0px auto;
         flex-shrink: 0;
       /* border:1px solid white; */
@@ -373,7 +378,7 @@ a:hover {
     .header h3{
         font-size: 43px;
         margin-left: 0px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 60px;
         animation: reveal 1s ease-in;
     }
@@ -425,18 +430,17 @@ a:hover {
     }
     .ftblock{
         width: 100%;
-        margin-top: 50px;
         
     }
     .foo1{
-        width: 95%;
+        width: 100%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
     }
     .foo2{
         margin-top: 70px;
-        width: 80%;
+        width: 100%;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -451,7 +455,7 @@ a:hover {
         width: 5px;
         font-weight: normal;
         font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Montserrat', sans-serif;
     }
     .foo2 a:hover{
         background-color: black;
@@ -474,27 +478,26 @@ a:hover {
     }
     .foo3{
         width: 80%;
-        margin-top: 0px;
+        margin-top: 10px;
         margin: auto;
         text-align: center;
         align-items: center;
-        
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo3 h1{
-        padding-top: 10px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
-        font-size: 20px;
-        margin-left: 0px;
+        font-size: 22px;
+        margin-left: 10px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
         font-size: 16px;
         color: white;  
-        line-height:1;
+        line-height:10px;
     }
     .foo3 a{
         text-decoration: none;
@@ -509,19 +512,18 @@ a:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo4 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
-        font-size: 20px;
-        margin-left: -5px;
+        font-size: 22px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo4 ul{
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 15px;
         color: white;
-        line-height: 15px; 
-        margin-left: -30px;  
+        line-height: 1; 
+        margin-left: 0px;  
     }
     .foo4 a{
         text-decoration: none;
@@ -530,21 +532,21 @@ a:hover {
     .foo5{
         width: 80%;
         margin-top: 30px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .foo5 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo5 li{
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: 1px;
         font-size: 15px;
         color: white; 
@@ -555,8 +557,9 @@ a:hover {
     }
     .fthr hr{
         width: 100%;
+        height: 2px;
         margin-top: 80px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
     }
@@ -568,9 +571,9 @@ a:hover {
     .last h1{
         color: rgb(182, 178, 178);
         font-size: 14px;
-        margin-top: 15px;
+        margin-top: 8px;
         font-weight: normal;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         float: left;
     }
     .koktail a{
@@ -583,7 +586,7 @@ a:hover {
     .llog a{
         font-size: 20px;
         color: whitesmoke;
-        margin: 4px;
+        margin: 8px;
         transition: transform .2s;
     }
     .llog a:hover .fa{
