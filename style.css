@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 body {
@@ -9,25 +10,38 @@ body {
 .navbar{
     background-color: black;
 }
+.mynavbar nav .container-fluid .d-flex a{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
 .nav-item{
-    padding-right: 10px;
+    padding-right: 1px;
 }
 .container p{
     color: white;
 }
 
-.row{
+.row1{
     display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
+    background-image: url(image/baklol1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     justify-content: space-between;
 }
 .info{
     flex-basis: 60%;
+    z-index: 2;
 }
 .image{
-    flex-basis: 28%;    
+    flex-basis: 38%;   
+    z-index: 1; 
 }
+
 
 .p h1 {
     margin-top: 200px;
@@ -81,6 +95,7 @@ body {
 .image {
     background-image: url(image/baklol.png);
     background-repeat: no-repeat;
+    overflow:scroll;
 }
 
 .menu2 {
@@ -216,8 +231,7 @@ body {
 }
 
 .section2 {
-    width: 1200px;
-    padding-top: 140px;
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 
@@ -232,7 +246,7 @@ body {
     display: block;
     float: left;
     margin-right: 20px;
-    margin-top: 23px;
+    margin-top: 28px;
     border-color: #66FCF1;
     /* background: #66FCF1; */
     transform: translateX(-100px);
@@ -246,10 +260,10 @@ body {
 
 
 .name h3 {
-    font-size: 40px;
-    font-weight: 550;
+    font-size: 48px;
+    font-weight: 500;
     margin-left: 20px;
-    font-family: Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transform: translateX(-100px);
     opacity: 0;
     transition: 250ms;
@@ -280,7 +294,6 @@ body {
     text-align: center;
     color: white;
     display: flex;
-    float: left;
     width: 100%;
     margin-top: 40px;
 }
@@ -328,7 +341,9 @@ body {
     padding: 4px;
     margin: 20px 0px 0 0;
     background-color: #121212;
+    border-radius: 5px;
     height: 50px;
+    width: 55px;
 }
 
 .digital:hover {
@@ -363,6 +378,7 @@ body {
     margin: 20px 0px 0 0;
     background-color: #66FCF1;
     height: 55px;
+    width: 55px;
 }
 
 .uidesign:hover {
@@ -392,6 +408,8 @@ body {
     margin: 20px 0px 0 0;
     background-color: #121212;
     height: 50px;
+    width: 55px;
+    border-radius: 5px;
 }
 
 .cwriting:hover {
@@ -409,7 +427,6 @@ body {
     text-align: center;
     color: white;
     display: flex;
-    float: left;
     width: 100%;
     margin-top: 40px;
 }
@@ -420,7 +437,9 @@ body {
     font-weight: normal;
     margin-top: 10px;
 }
-
+.services2 h1 span{
+    font-size: 22px;
+}
 .services2 p {
     font-family: Geneva, sans-serif;
     font-size: 14px;
@@ -455,6 +474,8 @@ body {
     margin: 20px 0px 0 0;
     background-color: #121212;
     height: 50px;
+    width: 55px;
+    border-radius: 5px;
 }
 
 .Marketing:hover {
@@ -483,12 +504,13 @@ body {
 }
 
 .Web img {
-
     display: inline-block;
     padding: 4px;
     margin: 20px 0px 0 0;
     background-color: #121212;
     height: 55px;
+    width: 55px;
+    border-radius: 5px;
 }
 
 .Web:hover {
@@ -521,6 +543,8 @@ body {
     margin: 20px 0px 0 0;
     background-color: #121212;
     height: 50px;
+    width: 55px;
+    border-radius: 5px;
 }
 
 .Social:hover {
@@ -530,13 +554,6 @@ body {
     color: #000;
 }
 
-
-
-.section3 {
-    height: 80vh;
-    background-color: #121212;
-    width: 100%;
-}
 
 
 
@@ -549,9 +566,10 @@ body {
 }
 
 .works {
-    width: 70%;
+    width: 85%;
     margin: 0 auto; 
-}
+/*     border:1px solid white;
+ */}
 
 .header1 {
     color: white;
@@ -564,13 +582,13 @@ body {
 
 .heading hr{
     width:60px;
-    display: block;
+    height: 2px;
     float: left;
     margin-right: 20px;
     margin-top: 28px;
     border-color: #66FCF1;
-    transform: translateX(-100px);
-    opacity: 0;
+    transform: translateX(0px);
+    opacity: 1;
     transition: 250ms;
 }
 .heading hr.show{
@@ -579,9 +597,9 @@ body {
 }
 
 .heading h3{
-    font-size: 50px;
+    font-size: 48px;
     margin-left: 0px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
     transform: translateX(-100px);
     opacity: 0;
@@ -642,10 +660,10 @@ body {
 
 .pictures{
     display: flex;
-    float: left; 
-    width: 99%;
+    width: 98%;
+    margin: 0 auto;
     margin-bottom: 20px; 
-    padding-left: 10px;   
+    padding-left: 0px;   
     margin-bottom: 100px;
 }
 
@@ -655,7 +673,7 @@ body {
     padding: 1px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 .img1{
     margin-left: 10px;
@@ -702,7 +720,7 @@ body {
 
 
 .about {
-    width: 70%;
+    width: 85%;
     display: flexbox;
     margin: 0 auto; 
 }
@@ -718,7 +736,7 @@ body {
     display: block;
     float: left;
     margin-right: 30px;
-    margin-top: 26px;
+    margin-top: 28px;
     border-color: #66FCF1;
    /* background: #66FCF1; */
    transform: translateX(-100px);
@@ -731,9 +749,9 @@ body {
 }
 
 .aname h3{
-    font-size: 50px;
+    font-size: 48px;
     margin-left: 0px;
-    font-family: arial;
+    font-family: 'Montserrat', sans-serif;
     transform: translateX(-100px);
     opacity: 0;
     transition: 250ms;
@@ -911,7 +929,7 @@ body {
 }
 
 .theader {
-    width: 70%;
+    width: 85%;
     color: white;
     /*border:2px solid white; */
     margin: 0 auto; 
@@ -919,7 +937,7 @@ body {
 }
 
 .theader hr{
-    width:60px;
+    width:50px;
     height:2px;
     display: block;
     float: left;
@@ -937,12 +955,13 @@ body {
 }
 
 .theader h3{
-    font-size: 50px;
+    font-size: 48px;
     margin-left: 20px;
     padding-top: 60px; 
     transform: translateX(-100px);
     opacity: 0;
     transition: 250ms;
+    font-family: 'Montserrat', sans-serif;
 }
 .theader h3.show{
     transform: translateX(0);
@@ -969,14 +988,12 @@ body {
 
 .feedback{
     display: flex;
-    float: left;
     width: 100%;
+    margin: 0 auto;
 }
-
 .feeds{
     width: 24%; 
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 auto;
     margin-top: 40px;
     background-color: #121212;
     color: white;
@@ -1123,7 +1140,42 @@ body {
 .tarikh a:hover{
     background-color: black;
 }
-    
+
+.post-container{
+    margin-top: 40px;
+}
+.post-container .post{
+    width: 300px;
+    height: 300px;
+    background: #121212;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.post-container .post .image img{
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.post-container .post .content{
+    padding: 0 20px;
+}
+.post-container .post .content h3{
+    padding-top: 20px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+.post-container .post .content p{
+    font-size: 14px;
+    padding: 5px 0;
+    color: #fff;
+    text-align: justify;
+    justify-content: center;
+}
 
 
 
@@ -1247,9 +1299,8 @@ body {
     margin-top: 10px;
     font-weight: normal;
     text-decoration: none;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .foo2 a:hover{
     background-color: black;
@@ -1286,16 +1337,14 @@ body {
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 22px;
-    text-align: center;
   /*  margin-left: 30px; */
     font-family: 'Times New Roman', Times, serif;
 }
 .foo3 li{
     margin-top: 30px;
-    text-align: center;
     font-size: 15px;
     color: rgb(202, 202, 202); 
-    line-height:3px;
+    line-height:0.5px;
     list-style: none;
 }
 .foo3 a{
@@ -1313,8 +1362,6 @@ body {
 }
 .foo4 h1{
     margin-top: 40px;
-    text-align: center;
-    align-items: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -1324,10 +1371,8 @@ body {
     margin-top: 30px;
     font-size: 16px;
     color: rgb(202, 202, 202);
-    line-height: 3px;
-    text-align: center;
-    align-items: center;
-    margin-left: -30px;
+    line-height: 0.5px;
+    padding: 0.1px;
 }
 .foo4 a{
     text-decoration: none;
@@ -1344,8 +1389,6 @@ body {
 }
 .foo5 h1{
     margin-top: 40px;
-    margin-left: 1px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -1354,11 +1397,11 @@ body {
 .foo5 li{
     margin-top: 30px;
     margin-left: 1px;
-    text-align: center;
     font-size: 15px;
     color: rgb(202, 202, 202);
     list-style: none;
-    line-height: 1;
+    line-height:0.5px;
+    padding: 0.1px;
 }
 .foo5 li a{
     /*text-decoration: none; */
@@ -1372,14 +1415,14 @@ body {
 }
 .last{
     width: 90%;
-    margin: 0 auto;
+    margin: 6px auto;
 }
 .last h1{
     color: rgb(202, 202, 202);
     font-size: 14px;
     margin-top: 0px;
     font-weight: normal;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     float: left;
 }
 .koktail a{
@@ -1445,7 +1488,9 @@ body {
         text-decoration: none;
         transform: .5s;
     }
-    
+    .mynavbar nav .container-fluid .d-flex a{
+        font-size: 29px;
+    }
     .main {
         display: flex;
         flex-direction: row;
@@ -1456,6 +1501,11 @@ body {
         display: flex;
         flex-direction: row;
         margin-bottom: 1px;
+    }
+    .row1{
+        margin: 0 auto;
+        background-image: url(image/baklol2.png);
+        background-position: center;
     }
     .row{
         margin: 0 auto;
@@ -1486,7 +1536,7 @@ body {
     
     .p h1 {
         margin-top: 60px;
-        font-size: 70px;
+        font-size: 55px;
         font-weight: 600;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
@@ -1503,15 +1553,15 @@ body {
     
     .p h4 {
         border: 2px solid #66FCF1;
-        width: 180px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        width: 140px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         text-align: center;
         color: white;
-        margin-top: 60px;
+        margin-top: 50px;
         letter-spacing: 0.6px;
         margin-left: 1px;
         transform: translateX(-100px);
@@ -1539,7 +1589,7 @@ body {
     .menu2 {
         color: white;
         display:flow-root;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     
     .menu2 h3 {
@@ -1659,7 +1709,7 @@ body {
     }
     
     .section2 {
-        width: 70%;
+        width: 90%;
         padding-top: 70px;
         padding-bottom: 100px;
     }
@@ -1691,7 +1741,7 @@ body {
         font-size: 35px;
         font-weight: 550;
         margin-left: 0px;
-        font-family: Tahoma, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         transform: translateX(-100px);
         opacity: 0;
         transition: 250ms;
@@ -1983,7 +2033,7 @@ body {
     }
     
     .works {
-        width: 70%;
+        width: 85%;
         margin: 0 auto; 
     }
     
@@ -2017,7 +2067,7 @@ body {
     .heading h3{
         font-size: 45px;
         margin-left: 0px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 100px;
         transform: translateX(-100px);
         opacity: 0;
@@ -2075,14 +2125,15 @@ body {
     
     .pictures{
         display: flow-root; 
-        width: 100%;
-        margin: auto;
+        width: 95%;
+        padding-right: 5px;
+        margin: 0 auto;
     }
     
     .pictures img{
         width: 99%;
-        margin: auto;
-        padding-right: 20px;
+        max-width: 500px;
+        margin: 0 auto;
         margin-bottom: 40px;
     }
     .img1{
@@ -2125,7 +2176,7 @@ body {
     
     
     .about {
-        width: 80%;
+        width: 85%;
         display: flexbox;
         margin: 0 auto; 
     }
@@ -2160,7 +2211,7 @@ body {
         transform: translateX(-100px);
         opacity: 0;
         transition: 250ms;
-        
+        font-family: 'Montserrat', sans-serif;
     }
     .aname h3.show{
         transform: translateX(0);
@@ -2184,7 +2235,6 @@ body {
     }
     
     .blocks{
-        height: 99vh;
       /*  border: 1px solid white;  */
         display: flow-root;
         margin-top: 60px;
@@ -2201,7 +2251,7 @@ body {
         opacity: 1;
     }
     .block1{
-        background-image: url(image/off1.png);
+        background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(image/off1.png);
         float:left;
         height:700px;
         width: 99%;
@@ -2228,7 +2278,7 @@ body {
     }
     
     .block2 {
-        background-image: url(image/off2.png);
+        background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(image/off2.png);
         background-size: cover;
         float: right;
         height:325px;
@@ -2256,7 +2306,7 @@ body {
     }
     
     .block3 {
-        background-image: url(image/off4.png);
+        background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(image/off4.png);
         background-size: cover;
         height:325px;
         width: 99%;
@@ -2286,7 +2336,7 @@ body {
     .amoto{
         color: white;
         display: flow-root; 
-        margin-top: 580px;
+        margin-top: 520px;
         font-family: Arial, Helvetica, sans-serif;
         transform: translateY(100px);
         opacity: 0;
@@ -2357,6 +2407,7 @@ body {
         transform: translateX(-100px);
         opacity: 0;
         transition: 250ms;
+        font-family: 'Montserrat', sans-serif;
     }
     .theader h3.show{
         transform: translateX(0);
@@ -2366,7 +2417,7 @@ body {
     .theader h4{
         font-size: 16px;
         font-weight: normal;
-        margin-left: 20px;
+        margin-left: 0px;
         text-transform: uppercase;
         color:#66FCF1;
         margin-bottom: 40px;
@@ -2466,7 +2517,7 @@ body {
     }
     .late2 h1 {
         align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 800;
         font-size: 45px;
         color: white;
@@ -2634,14 +2685,14 @@ body {
         
     }
     .foo1{
-        width: 80%;
+        width: 90%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
     }
     .foo2{
         margin-top: 70px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -2656,7 +2707,7 @@ body {
         width: 5px;
         font-weight: normal;
         font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Montserrat', sans-serif;
     }
     .foo2 a:hover{
         background-color: black;
@@ -2679,7 +2730,7 @@ body {
     }
     .foo3{
         width: 80%;
-        margin-top: 30px;
+        margin-top: 10px;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -2687,15 +2738,15 @@ body {
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo3 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 22px;
         margin-left: 10px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
         font-size: 16px;
         color: white;  
@@ -2717,15 +2768,15 @@ body {
         margin-top: 40px;
         color: white;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo4 ul{
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 15px;
         color: white;
-        line-height: 15px; 
-        margin-left: -30px;  
+        line-height: 1; 
+        margin-left: 0px;  
     }
     .foo4 a{
         text-decoration: none;
@@ -2734,21 +2785,21 @@ body {
     .foo5{
         width: 80%;
         margin-top: 30px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .foo5 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo5 li{
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: 1px;
         font-size: 15px;
         color: white; 
@@ -2759,8 +2810,9 @@ body {
     }
     .fthr hr{
         width: 80%;
+        height: 2px;
         margin-top: 80px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
     }
@@ -2772,9 +2824,9 @@ body {
     .last h1{
         color: rgb(182, 178, 178);
         font-size: 14px;
-        margin-top: 15px;
+        margin-top: 8px;
         font-weight: normal;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         float: left;
     }
     .koktail a{
@@ -2787,7 +2839,7 @@ body {
     .llog a{
         font-size: 20px;
         color: whitesmoke;
-        margin: 4px;
+        margin: 8px;
         transition: transform .2s;
     }
     .llog a:hover .fa{
