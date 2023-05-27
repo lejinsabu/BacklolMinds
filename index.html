@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+<!--     for corousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
     <script src="script.js" defer></script>
 </head>
   <body>
@@ -18,17 +25,17 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="d-flex align-items-start flex-column">
-              <a class="navbar-brand" href="#" style="font-size:33px;">BAKLOL MINDS</a>
+              <a class="navbar-brand" href="">BAKLOL MINDS</a>
               <p class="d-flex flex-wrap"  style="font-size:18px; color: #66FCF1;">BE MAD, BE CREATIVE</p>
             </div> 
               
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav" style="padding: 20px;">
                   <li class="nav-item">
-                    <a class="nav-link active"  href="about.html">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link active" href="services.html">SERVICES</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link active"  href="about.html">ABOUT US</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,18 +58,18 @@
     </div>
 
 
-    <div class="container-fluid" style="width: 85%;margin-top: 20px;">
-    <div class="row">
+    <div class="container-fluid" style="width: 90%;margin-top: 20px;">
+    <div class="row1">
            
         <div class="info col-sm-8">
             <div class="p">
-                <h1>We Are Digital Agency</h1>
+                <h1>We Are A Digital Agency</h1>
                 <h4><a href="services.html">SERVICES</a></h4>
             </div>
         </div>
     
-        <div class="image col-sm-4" style="height: 700px;">
-        </div>
+        <!-- <div class="image col-sm-4" style="height: 700px; width: 100%;">
+        </div> -->
     </div>
 
     <div class="menu2 row" style="margin-top: 50px;">
@@ -91,7 +98,7 @@
 
     <section>
       <div class="grey1">
-      <div class="section2 container-fluid" style="width: 80%;">
+      <div class="section2 container-fluid" style="width: 90%;">
           <div class="name">
               <p><h3><hr><a name="service">Services</a></h3></p>
               <p><h4>OUR SERVICES FOR CLIENTS</h4></p>
@@ -102,31 +109,32 @@
                   <h1>Web Development</h1>
                   <p>Transforming Ideas into Powerful Web Solutions. Unleashing the Full Potential of Web Development with Baklol Minds</p>
               </div>
-              <div class="uidesign">
-                  <img src="image/design.png" alt="">
-                  <h1>UI/UX Design</h1>
-                  <p>Elevating User Experiences with Stunning UI Design. Unleashing the Power of Web Development on Baklol Minds</p>
-              </div>
               <div class="cwriting">
                   <img src="image/webmain.png" alt="">
                   <h1>Website Maintenance</h1>
                   <p>We design websites and provide services for maintenance.</p>
               </div>
+              <div class="cwriting">
+                  <img src="image/uid.png" alt="">
+                  <h1>UI/UX Design</h1>
+                  <p>Elevating User Experiences with Stunning UI Design. Unleashing the Power of Web Development on Baklol Minds</p>
+              </div>
+              
           </div>
           <div class="services2">
               <div class="Marketing" id="Mobile">
                   <img src="image/mobile.png" alt="">
-                  <h1> &nbsp;&nbsp;&nbsp;&nbsp; Mobile &nbsp;&nbsp;&nbsp; Application</h1>
+                  <h1>Mobile <br>Application</h1>
                   <p>Transforming Mobile App Ideas into Reality: Building Cutting-Edge Solutions with Baklol Minds' Mobile Application Development Expertise</p>
               </div>
               <div class="Web">
                   <img src="image/software.png" alt="">
-                  <h1>&nbsp;&nbsp;&nbsp;&nbsp;Software &nbsp;&nbsp;&nbsp; (CRM/HRM & ERP)</h1>
+                  <h1>Software Development <br><span>(CRM/HRM & ERP)</span></h1>
                   <p>Innovative Software Solutions for Streamlined Business Operations. Unleashing the Power of Web Development with Baklol Minds' Expertise</p>
               </div>
               <div class="Social">
                   <img src="image/ecome.png" alt="">
-                  <h1>E-commerce onboarding</h1>
+                  <h1>E-commerce <br> <span>(onboarding to Management)</span></h1>
                   <p>Empowering Your E-commerce Journey from Onboarding to Management, Baklol Minds Solutions Drive Business Success</p>
               </div>
           </div>
@@ -180,8 +188,8 @@
     
             <div class="works">
                 <div class="header1">
-                   <div class="heading"> <p><h3><hr><a name="works">Works</a></h3></p>
-                    <h4>Projects We Have Done</h4>
+                   <div class="heading"><h3><hr><a name="works">Works</a></h3>
+                    <h4> Projects We Have Done</h4>
                 </div>
         
                 <a href="windex.html"><div class="wview">
@@ -317,16 +325,76 @@
             <section>
                 <div class="latest">
                     <div class="late2">
-                        <h1>Latest News</h1>
-                        <p>CHECK OUT SOME OF OUR NEWS</p>
+                        <h1>Latest Blogs</h1>
+                        <p>CHECK OUT SOME OF OUR BLOGS</p>
                     </div>
-                    <div class="tarikh">
+                   <!--  <div class="tarikh">
                         <h6>January 26, 2023</h6>
                         <h3><a href="hello">Hello world!</a></h3>
                         <p>Welcome to WordPress. This is your first post. 
                             Edit or delete it, then start writing!</p>
                         <h4><a href="https://wordpress.com" target="_blank">Read More</a></h4>
+                    </div> -->
+                    <div class="post-container owl-carousel">
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">Company Registration in India</h3>
+                                <p>The organizational structure you choose will determine the taxes you have to pay, the compliance measures you need to follow and the eligibility criteria you need to meet.</p>
+
+                            </div>
+                        </div>
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">E-Commerce</h3>
+                                <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.Electronic commerce or e-commerce (sometimes written as eCommerce) is a business model that lets firms and individuals buy and sell things over the internet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">Hello world!</h3>
+                                <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">Naming a brand/ Company</h3>
+                                <p>Things to be considered before you pick a name for your business or brand. You can’t have a business without a business name!</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">Logo Design</h3>
+                                <p>A logo is a graphic mark, emblem, symbol, or stylized name used to identify a company, organization, product, or brand. It may take the form of an abstract or figurative design, or it may present as a stylized version of the company’s name if it has sufficient brand recognition. </p>
+
+                            </div>
+                        </div>
+                        <div class="post">
+                            <!-- <div class="image">
+                                <img src="image/noimg.jpg" alt="">
+                            </div> -->
+                            <div class="content">
+                                <h3 href="#" class="title">Free Digital Marketing Courses</h3>
+                                <p>Due to Covid-19, we are offering free Digital Marketing Courses at Naraina, New Delhi Office, This Course has 6 month Duration with practical Project. Time- 9:30 AM to 6:30 PM, Monday to Saturday</p>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </section>
 
@@ -387,7 +455,8 @@
                     </div>
                     <div class="foo5">
                         <h1><a name="contact">Contact</a></h1>
-                        <li>Naraina Ring Road, <br>New Delhi-110028, India.</li>
+                        <li>Naraina Ring Road, </li>
+                        <li> New Delhi-110028, India.</li>
                         <li>+91 8178346064</li>
                         <li><a href=mailto:"baklolminds@info.com">baklolminds@info.com</a></li>
                     </div>
@@ -405,5 +474,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.post-container').owlCarousel({
+                pagination: false,
+                autoplay: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    700:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    },
+                    1200:{
+                        items:4
+                    },
+                }
+            })
+        });
+    </script>
+
+
 </body>
 </html>
