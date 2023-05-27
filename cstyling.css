@@ -3,6 +3,7 @@
 }
 * {
     padding: 0;
+    margin: 0;
 }
 
 .navbar{
@@ -10,6 +11,10 @@
 }
 .nav-item{
     padding-right: 1px;
+}
+.mynavbar nav .container-fluid .d-flex a{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
     background-color: rgb(0, 0, 0);
@@ -39,7 +44,7 @@ body {
 .txt{
     margin-top: 25px;
 }
-nav ul li a{
+/* nav ul li a{
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -69,8 +74,8 @@ nav ul li:hover ul.dropdown {
     color: rgb(197, 25, 25);
     padding-top: 5px;
     padding-bottom: 4px;
-    /* Display the dropdown */
-}
+    /* Display the dropdown 
+} */
 
 
 .contactbox{
@@ -235,7 +240,8 @@ tr td{
    /*border: 1px solid white; */
 }
 .foo1{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row; 
     /*border: 1px solid yellow;*/
@@ -371,20 +377,23 @@ tr td{
     color: rgb(202, 202, 202);
 }
 .fthr hr{
-    width: 100%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
     margin-top: 10px;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
-    width: 100%;
-    margin: 8px auto;
+    width: 90%;
+    margin: 2px auto;
 }
 .last h1{
     color: rgb(202, 202, 202);
     font-size: 14px;
     margin-top: 0px;
     font-weight: normal;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     float: left;
 }
 .koktail a{
@@ -422,6 +431,9 @@ tr td{
 
 @media screen and (max-width: 700px)
 {
+    .mynavbar nav .container-fluid .d-flex a{
+        font-size: 29px;
+    }
     h1{
         margin-bottom: 20px;
         margin-left: 10px;
@@ -462,15 +474,14 @@ tr td{
         
     }
     .foo1{
-        width: 95%;
+        width: 90%;
         display: flow-root;
         margin: auto;
         flex-direction: row;
     }
     .foo2{
         margin-top: 70px;
-        padding-top: 30px;
-        width: 95%;
+        width: 100%;
         margin: auto;
         text-align: center;
         align-items: center;
@@ -485,7 +496,7 @@ tr td{
         width: 5px;
         font-weight: normal;
         font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Montserrat', sans-serif;
     }
     .foo2 a:hover{
         background-color: black;
@@ -507,24 +518,23 @@ tr td{
         float: left;
     }
     .foo3{
-        width: 100%;
-        margin-top: 30px;
+        width: 80%;
+        margin-top: 10px;
         margin: auto;
         text-align: center;
         align-items: center;
-        
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo3 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
-        font-size: 20px;
-        margin-left: 0px;
+        font-size: 22px;
+        margin-left: 10px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo3 li{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
         font-size: 16px;
         color: white;  
@@ -536,49 +546,48 @@ tr td{
     }
     .foo4{
         margin-top: 50px;
-        width: 100%;
+        width: 80%;
         margin: auto;
         text-align: center;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
     }
     .foo4 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
-        margin-left: 0px;
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo4 ul{
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 15px;
         color: white;
-        line-height: 15px; 
-        margin-left: -30px;  
+        line-height: 1; 
+        margin-left: 0px;  
     }
     .foo4 a{
         text-decoration: none;
         color: white;
     }
     .foo5{
-        width: 100%;
+        width: 80%;
         margin-top: 30px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .foo5 h1{
-        margin-top: 60px;
+        margin-top: 40px;
         color: white;
         font-weight: normal;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
     .foo5 li{
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: 1px;
         font-size: 15px;
         color: white; 
@@ -589,21 +598,23 @@ tr td{
     }
     .fthr hr{
         width: 100%;
+        height: 2px;
         margin-top: 80px;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
     }
     .last{
         width: 100%;
+        height: 5vh;
         margin: 0 auto;
     }
     .last h1{
         color: rgb(182, 178, 178);
         font-size: 14px;
-        margin-top: 15px;
+        margin-top: 8px;
         font-weight: normal;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         float: left;
     }
     .koktail a{
@@ -616,7 +627,7 @@ tr td{
     .llog a{
         font-size: 20px;
         color: whitesmoke;
-        margin: 5px;
+        margin: 8px;
         transition: transform .2s;
     }
     .llog a:hover .fa{
