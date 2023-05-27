@@ -204,6 +204,7 @@ a:hover {
 
   .ftblock{
     width: 100%;
+    margin-top: 40px;
    /*border: 1px solid white; */
 }
 .foo1{
@@ -211,7 +212,7 @@ a:hover {
     display: flex;
     flex-direction: row; 
     margin: auto;
-    /*border: 1px solid yellow;*/
+/*     border: 1px solid yellow; */
 }
 .foo2{
     margin-top: 20px;
@@ -334,15 +335,20 @@ a:hover {
     /*text-decoration: none; */
     color: rgb(202, 202, 202);
 }
+.fthr{
+    margin: 0 auto;
+}
 .fthr hr{
     width: 100%;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 6px;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
     width: 90%;
     margin: 6px auto;
+    
 }
 .last h1{
     color: rgb(202, 202, 202);
