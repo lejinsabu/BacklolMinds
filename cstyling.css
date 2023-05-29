@@ -107,7 +107,7 @@ h5{
     width:355px;
     white-space: nowrap;
 }
-h1{
+.anotherpage h1{
     margin-bottom: 40px;
     margin-left: 10px;
     color: #66FCF1;
@@ -237,13 +237,14 @@ tr td{
 
 .ftblock{
     width: 100%;
+    margin-top: 30px;
    /*border: 1px solid white; */
 }
 .foo1{
     width: 90%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row; 
+    margin: 0 auto;
     /*border: 1px solid yellow;*/
 }
 .foo2{
@@ -258,9 +259,9 @@ tr td{
     width: 5px;
     margin-top: 10px;
     font-weight: normal;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .foo2 a:hover{
     background-color: black;
@@ -292,22 +293,19 @@ tr td{
     font-family: Arial, Helvetica, sans-serif;
    /* border: 1px solid white;*/
 }
-.foo3 h1{
+.foo3 h2{
     margin-top: 0px;
-    margin-bottom: 1px;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 22px;
-    text-align: center;
   /*  margin-left: 30px; */
     font-family: 'Times New Roman', Times, serif;
 }
 .foo3 li{
     margin-top: 30px;
-    text-align: center;
     font-size: 15px;
     color: rgb(202, 202, 202); 
-    line-height:3px;
+    line-height:0.5px;
     list-style: none;
 }
 .foo3 a{
@@ -321,13 +319,10 @@ tr td{
     margin-top: 0px;
     width: 18%;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-  /*  border: 1px solid green;*/
+   /* border: 1px solid green;*/
 }
-.foo4 h1{
+.foo4 h2{
     margin-top: 40px;
-    margin-bottom: 1px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -337,28 +332,24 @@ tr td{
     margin-top: 30px;
     font-size: 16px;
     color: rgb(202, 202, 202);
-    line-height: 3px;
-    text-align: center;
-    margin-left: -15px;
+    line-height: 0.5px;
+    padding: 0.1px;
 }
 .foo4 a{
     text-decoration: none;
-    text-align: center;
     color: rgb(202, 202, 202);
 }
 .foo4 a:hover{
     color: white;
 }
 .foo5{
-    width: 20%;
+    width: 18%;
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
    /* border: 1px solid red;*/
 }
-.foo5 h1{
+.foo5 h2{
     margin-top: 40px;
-    margin-bottom: 1px;
-    text-align: center;
     color: rgb(202, 202, 202);
     font-weight: normal;
     font-size: 20px;
@@ -366,11 +357,12 @@ tr td{
 }
 .foo5 li{
     margin-top: 30px;
-    text-align: center;
+    margin-left: 1px;
     font-size: 15px;
     color: rgb(202, 202, 202);
     list-style: none;
-    line-height: 1;
+    line-height:0.5px;
+    padding: 0.1px;
 }
 .foo5 li a{
     /*text-decoration: none; */
@@ -378,15 +370,13 @@ tr td{
 }
 .fthr hr{
     width: 90%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin: 0 auto;
     border: 1px solid rgb(202, 202, 202);
 }
 .last{
     width: 90%;
-    margin: 2px auto;
+    margin: 5px auto;
 }
 .last h1{
     color: rgb(202, 202, 202);
@@ -579,7 +569,7 @@ tr td{
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 20px;
     }
-    .foo5 h1{
+    .foo5 h2{
         margin-top: 40px;
         color: white;
         font-weight: normal;
@@ -597,7 +587,7 @@ tr td{
         color: white;
     }
     .fthr hr{
-        width: 100%;
+        width: 90%;
         height: 2px;
         margin-top: 80px;
         margin: 0 auto;
@@ -605,7 +595,7 @@ tr td{
         align-items: center;
     }
     .last{
-        width: 100%;
+        width: 90%;
         height: 5vh;
         margin: 0 auto;
     }
@@ -619,7 +609,7 @@ tr td{
     }
     .koktail a{
         text-decoration: none;
-        color: whitesmoke;
+        color: #fff;
     }
     .llog {   
         margin: 5px;
