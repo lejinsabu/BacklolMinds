@@ -1146,20 +1146,22 @@ body {
 }
 .post-container .post{
     width: 90%;
-    height: 300px;
     background: #121212;
     margin: 0 auto;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 .post-container .post .image img{
-    height: 250px;
+    height: 280px;
     width: 100%;
     align-items: center;
     margin: 0 auto;
     object-fit: cover;
+    border-radius: 5px;
 }
 .post-container .post .content{
     padding: 0 20px;
+    height: 250px;
 }
 .post-container .post .content h3{
     padding-top: 20px;
@@ -1170,8 +1172,8 @@ body {
     text-transform: capitalize;
 }
 .post-container .post .content p{
-    font-size: 14px;
-    padding: 5px 0;
+    font-size: 15px;
+    padding: 0px 0;
     color: #fff;
     text-align: justify;
     justify-content: center;
@@ -1253,7 +1255,6 @@ body {
     padding-top: 20px;
     text-transform: uppercase;
     font-size: 16px;
-    border: 2px solid #66FCF1;
     width: 200px;
     margin-top: 40px;
     padding-bottom: 20px;
@@ -1268,8 +1269,14 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
-.pro p:hover{
-    cursor: pointer;
+.pro p a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #66FCF1;
+    width: 200px;
+    padding: 20px 35px;
+}
+.pro a:hover{
     border: 2px solid #43a59e;
 }
 
