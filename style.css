@@ -1151,7 +1151,7 @@ body {
     margin-bottom: 20px;
     border-radius: 5px;
 }
-.post-container .post .image img{
+.post-container .post .image1 img{
     height: 280px;
     width: 100%;
     align-items: center;
@@ -1178,6 +1178,51 @@ body {
     text-align: justify;
     justify-content: center;
 }
+.read-more{
+    margin: 0 auto;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0 auto;
+    background: linear-gradient(to right,rgba(102, 252, 241, 0.4), rgba(102, 252, 241, 0.9));
+    border: none;
+    outline: none;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    padding: 6px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    color: #000;
+    background: transparent;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 
 
@@ -1190,6 +1235,7 @@ body {
     flex-direction: column;
     color: white;
     padding-bottom: 80px;
+    margin-top: 40px;
 }
 .socillink{
     display: flex;
