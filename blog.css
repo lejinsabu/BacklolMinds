@@ -1,7 +1,5 @@
 * {
     background-color: black;
-}
-* {
     padding: 0;
     margin: 0;
 }
@@ -20,6 +18,9 @@ body {
 .mynavbar nav .container-fluid .d-flex a{
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
+}
+.mynavbar nav .container-fluid .collapse{
+    justify-content: end;
 }
 .log {
     color: white;
@@ -77,16 +78,14 @@ a:hover {
     transform: .5s;
 }
 
-.header {
-    color: white;
-    height: 200px;
-    width: 100%;
-    margin: 20px auto;
-    flex-shrink: 0;
-   /*border:1px solid white; */
+
+.heading{
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-.header hr{
+.heading hr{
     width:70px;
     height:2px;
     display: block;
@@ -97,15 +96,16 @@ a:hover {
    /* background: #66FCF1; */
 }
 
-.header h3{
+.heading h3{
     font-size: 50px;
     margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
+    color: #fff;
     animation: reveal 1s ease-in;
 }
 
-.header h4{
+.heading h4{
     font-size: 16px;
     margin-left: 0px;
     margin-top: 30px;
@@ -116,7 +116,7 @@ a:hover {
     margin-bottom: 60px;
     letter-spacing: 0.6px;
 }
-.header a{
+.heading a{
     text-decoration: none;
     color: white;
 }
@@ -131,25 +131,59 @@ a:hover {
     white-space: nowrap;
 }
 
-.blogs{
+#myBtnContainer{
     width: 85%;
     margin: 0 auto;
-    /*border: 1px solid white;*/
 }
-.blog1{
-    box-sizing: border-box;
-    border: 1px solid white;
-    border-radius: 10px;
-    display:flex;
-    margin-bottom: 50px;
-    box-shadow: inset #66FCF1;
-}
-.pic{
-    flex-basis: 19%;
-}
-.pic img{
-    float: left;
+
+
+.show {
+    display: flex;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #66FCF1;
+    color: #000;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.activ {
+    background-color: #666;
+    color: white;
+  }
+
+
+  .container {
     width: 100%;
+  }
+
+.filterDiv {
+    width: 100%;
+    margin: 1px;
+    box-sizing: border-box;
+      border: 1px solid white;
+      border-radius: 10px;
+      display:flex;
+      margin-bottom: 40px;  
+      display: none;
+  }
+
+  .filterDiv.pic{
+    flex-basis: 19%;
+  }
+  .pic img{
+    float: left;
+    width: 90%;
     margin: 15px 0px 15px 20px;
     border-right: 4px solid #66FCF1;
 }
@@ -160,6 +194,7 @@ a:hover {
 .content h1{
     padding-top: 25px;
     padding-left: 30px;
+    color: #fff;
 }
 .content p{
     padding-top: 15px;
@@ -169,11 +204,15 @@ a:hover {
         text-justify: inter-word;
         line-height: 1.5;
     font-size: 20px;
+    color: #fff;
 }
+
+   
 
 .ftblock{
     width: 100%;
     margin-top: 40px;
+    margin: 0 auto;
    /*border: 1px solid white; */
 }
 .foo1{
@@ -365,6 +404,9 @@ a:hover {
     .mynavbar nav .container-fluid .d-flex a{
         font-size: 29px;
     }
+    .mynavbar nav .container-fluid .collapse{
+        justify-content:left;
+    }
     .heading hr{
         width:40px;
         height:2px;
@@ -376,7 +418,7 @@ a:hover {
        /* background: #66FCF1; */
     }
     
-    .header h3{
+    .heading h3{
         font-size: 43px;
         margin-left: 0px;
         font-family: Arial, Helvetica, sans-serif;
@@ -384,7 +426,7 @@ a:hover {
         animation: reveal 1s ease-in;
     }
     
-    .header h4{
+    .heading h4{
         font-size: 16px;
         margin-left: 0px;
         margin-top: 30px;
@@ -395,59 +437,56 @@ a:hover {
         margin-bottom: 60px;
         letter-spacing: 0.6px;
     }
-        .blog1{
-            border: 1px solid white;
-            display:flow-root;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            box-shadow: inset #66FCF1;
-    
-        }
-        .blog1 img{
-            width: 85%;
-            height: 30vh;
-            margin-left: 27px;
-            border: 1px solid #66FCF1;
-            margin-bottom: 30px;
-            margin-top: 30px;
-        }
-        .content{
-            margin-left: 0px;
-        }
-        .content{
-            align-items: center;
-            text-align: center;
-            margin: auto;
-        }
-        .content h1{
-            margin: auto;
-            margin-top: 20px;
-            text-align: center;
-            align-items: center;
-            padding-right: 30px;
-    
-        }
-        .content p{
-            padding-top: 15px;
-            padding-left: 30px;
-            padding-right: 30px;
-            font-size: 19px;
-    
-        }
-        .button {
-            display: inline-block;
-            border-radius: 1px;
-            background-color: #7fd6d6;
-            border: none;
-            color: #000;
-            text-align: center;
-            font-size: 20px;
-            padding: 8px;
-            width: 150px;
-            transition: all 0.5s;
-            cursor: pointer;
-            margin: 5px;
-          }
+    .filterDiv {
+        width: 100%;
+        margin: 1px;
+        box-sizing: border-box;
+          border: 1px solid white;
+          border-radius: 10px;
+          display:flow-root;
+          margin-bottom: 40px;  
+          display: none;
+      }
+
+    .filterDiv.pic{
+        flex-basis: 0%;
+        display: none;
+      }
+      .pic img{
+        width: 0%;
+        display: none;
+        border-right: 4px solid #66FCF1;
+    }
+    .content{
+        width: 99%;
+        margin: 0 auto;
+        flex-basis: 99%;
+        display: block;
+    }
+    .btn {
+        border: none;
+        outline: none;
+        padding: 8px 14px;
+        margin: 5px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+      }
+      .content h1{
+        padding-top: 25px;
+        color: #fff;
+    }
+    .content p{
+        padding-top: 15px;
+        width: 100;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: justify;
+            text-justify: inter-word;
+            line-height: 1.5;
+        font-size: 20px;
+        color: #fff;
+    }
           .ftblock{
             width: 100%;
             
@@ -616,4 +655,4 @@ a:hover {
             transform: scale(1.2); 
         }
         
-    }
+}
