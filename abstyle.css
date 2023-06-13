@@ -395,7 +395,7 @@ a:hover {
 }
 .ftblock{
     width: 100%;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 .foo1{
     width: 100%;
@@ -407,6 +407,7 @@ a:hover {
     margin-top: 70px;
     width: 100%;
     margin: auto;
+    padding: 10px;
     text-align: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
