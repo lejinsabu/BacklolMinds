@@ -407,6 +407,12 @@ a:hover {
         margin-top: 50px;
         margin: auto;
     }
+    #d3{
+        display: inline-block
+    }
+    #d4{
+        padding-top: 0px;
+    }
     .services p{
         font-size: 17px;
         padding-left: 10px;
