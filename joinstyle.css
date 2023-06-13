@@ -164,6 +164,8 @@ a:hover {
     padding-left: 30px;
     padding-right: 50px;
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .button {
     display: inline-block;
@@ -426,6 +428,7 @@ a:hover {
     margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 60px;
+    font-weight: 400;
     animation: reveal 1s ease-in;
 }
 
@@ -458,12 +461,16 @@ a:hover {
         text-align: center;
         align-items: center;
         padding-right: 30px;
+        font-weight: 300;
     }
     .content p{
         padding-top: 19px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
         font-size: 19px;
+        font-weight: 300;
+        text-align: justify;
+    text-justify: inter-word;
     }
     .button {
         display: inline-block;
@@ -481,7 +488,7 @@ a:hover {
       }
       .ftblock{
         width: 100%;
-        
+        padding-top: 30px;
     }
     .foo1{
         width:90%;
