@@ -437,7 +437,8 @@ a:hover {
     .blog1 img{
         width: 40%;
         height: 10vh;
-        margin-left: 90px;
+        display: none;
+        margin-left: 100px;
         margin-bottom: 30px;
         margin-top: 30px;
     }
@@ -447,22 +448,27 @@ a:hover {
     .content{
         align-items: center;
         text-align: center;
-        margin: auto;
+        margin: 0 auto;
     }
     .content h1{
-        margin: auto;
+        margin: 0 auto;
         margin-top: 20px;
         text-align: center;
         align-items: center;
         padding-right: 30px;
 
     }
+    .content h1 span{
+        font-size: 26px;
+        font-weight: 300;
+    }
     .content p{
         padding-top: 15px;
         padding-left: 30px;
         padding-right: 30px;
         font-size: 19px;
-
+        text-align: justify;
+    text-justify: inter-word;
     }
     .button {
         display: inline-block;
@@ -478,6 +484,7 @@ a:hover {
       }
       .ftblock{
         width: 100%;
+        padding-top: 40px;
         
     }
     .foo1{
