@@ -454,6 +454,12 @@ tr td{
         border-bottom: 2px solid #121212;
        /* background: rgb(53, 50, 50);*/
     }
+    .contactbox h3{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
     .inputrow{
         display: flow-root;
         justify-content: space-between;
@@ -461,7 +467,7 @@ tr td{
     }
     .ftblock{
         width: 100%;
-        
+        padding-top: 20px;
     }
     .foo1{
         width: 90%;
