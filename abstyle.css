@@ -354,7 +354,7 @@ a:hover {
 .header {
     color: white;
     height: 200px;
-    width: 85%;
+    width:90%;
     margin: 20px auto;
     flex-shrink: 0;
    /* border:1px solid white; */
@@ -395,7 +395,7 @@ a:hover {
 }
 .ftblock{
     width: 100%;
-    
+    margin-top: 60px;
 }
 .foo1{
     width: 100%;
