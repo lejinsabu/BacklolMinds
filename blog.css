@@ -434,7 +434,7 @@ a:hover {
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         color:#66FCF1;
-        margin-bottom: 60px;
+        margin-bottom: 10px;
         letter-spacing: 0.6px;
     }
     .filterDiv {
@@ -463,6 +463,7 @@ a:hover {
         flex-basis: 99%;
         display: block;
     }
+    
     .btn {
         border: none;
         outline: none;
@@ -474,6 +475,7 @@ a:hover {
       .content h1{
         padding-top: 25px;
         color: #fff;
+        font-weight: 350;
     }
     .content p{
         padding-top: 15px;
@@ -486,35 +488,43 @@ a:hover {
             line-height: 1.5;
         font-size: 20px;
         color: #fff;
+        padding-bottom: 20px;
+        font-weight: 350;
     }
           .ftblock{
             width: 100%;
-            
+            padding-top: 30px;
         }
         .foo1{
             width:90%;
             display: flow-root;
-            margin: auto;
+            margin: 0 auto;
             flex-direction: row;
         }
         .foo2{
             margin-top: 70px;
             width: 100%;
-            margin: auto;
+            margin: 0 auto;
             text-align: center;
+            padding: 10px;
+            /* text-align: center;
             align-items: center;
+            justify-content: center; */
             font-family: Arial, Helvetica, sans-serif;
             margin-bottom: 50px;
+            /* border: 1px solid white; */
         }
         .foo2 a{
             color: white;
             height: 10vh;
             margin-bottom: 2px;
             text-decoration: none;
-            width: 5px;
+            text-align: center;
+            align-items: center;
             font-weight: normal;
             font-size: 40px;
             font-family: 'Montserrat', sans-serif;
+            /* border: 1px solid white; */
         }
         .foo2 a:hover{
             background-color: black;
